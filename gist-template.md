@@ -93,6 +93,10 @@ Grouping and capturing allows you to match a pattern multiple times, you must gr
 
 ### Bracket Expressions
 
+Brackets indicate a set of characters to match. Bracket expressions are a list of characters enclosed by a pair of square brackets []. It matches any single character in that list.
+
+If the first character after the opening bracket is a caret (^), then it matches any character not in the list.
+
 ### Greedy and Lazy Match
 
 ### Boundaries
