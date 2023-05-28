@@ -103,6 +103,10 @@ Greedy and lazy quantifiers match regular expressions in different ways. Greedy 
 
 ### Boundaries
 
+A word boundry \b is a test just like ^ and $. It matches positions between characters. Usually a string.
+
+There are three different positions that qualify as word boundaries: At the start of the string, if the first character is a word character. At the end of the string, if the last character is a word character. Between two characters in the string, where one is a word character and the other is not a word character.
+
 ### Back-references
 
 ### Look-ahead and Look-behind
