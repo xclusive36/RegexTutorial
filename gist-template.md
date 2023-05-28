@@ -83,7 +83,13 @@ Character classes match any one of a set of characters. They are also called cha
 
 ### Flags
 
+Flags in regex expressions are optional parameters that specify the search to be global, case-insensitive, etc. Flags are placed at the end of the regex expression. For example, the 'g' flag enables global search. The 'i' flag enables case-insensitive search. The 'm' flag enables multi-line search. The 'y' flag enables sticky search. The 'u' flag enables unicode search. The 's' flag enables "dotall" search.
+
+How do you set flags in a regex expression? Add a forward slash (/) after the closing bracket of the regex expression. Then add the flag(s) you want to use. For example, /regex expression/gi.
+
 ### Grouping and Capturing
+
+Grouping and capturing allows you to match a pattern multiple times, you must group using parentheses (). This allows you to apply a quantifier to the entire group or to restrict alternation to part of the regular expression. To capture the contents of a group, you can use a backreference. The captured value is stored in a backreference, which can be used later in the expression. A backreference is specified in the regex expression as a backslash (\) followed by a number indicating the number of the capturing group to be recalled.
 
 ### Bracket Expressions
 
