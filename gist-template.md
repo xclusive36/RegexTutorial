@@ -99,6 +99,8 @@ If the first character after the opening bracket is a caret (^), then it matches
 
 ### Greedy and Lazy Match
 
+Greedy and lazy quantifiers match regular expressions in different ways. Greedy match is the default. It matches the longest possible part of a string that fits and returns it as a match. Lazy match finds the smallest possible part of the string and returns it as a match.
+
 ### Boundaries
 
 ### Back-references
