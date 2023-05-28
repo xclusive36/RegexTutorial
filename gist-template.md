@@ -23,6 +23,7 @@ Matching an Email Address with Regex you can use the following expression:
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [More Information](#more-information)
 
 ## Regex Components
 
@@ -113,10 +114,16 @@ A backreference is specified in the regex expression as a backslash (\) followed
 
 ### Look-ahead and Look-behind
 
+Look-ahead and look-behind, collectively called "lookaround", are zero-length assertions. The difference is that lookaround actually matches characters, but then gives up the match, returning only the result: match or no match. That is why they are called "assertions". They only assert whether a match is possible or not.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+- [GitHub Profile](https://github.com/xclusive36/Profile)  
+- [GitHub](https://github.com/xclusive36)  
+My name is Joshua Cavell. Thank you for reading my tutorial. I hope you found it helpful.
 
-[Regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-[Regular expressions cheetsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
+## More Information
+
+[Regular expression](https://en.wikipedia.org/wiki/Regular_expression)  
+[Regular expressions cheetsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)  
 [Google search](https://www.google.com/search?q=regex+expressions)
