@@ -109,6 +109,8 @@ There are three different positions that qualify as word boundaries: At the star
 
 ### Back-references
 
+A backreference is specified in the regex expression as a backslash (\) followed by a number indicating the number of the capturing group to be recalled.
+
 ### Look-ahead and Look-behind
 
 ## Author
